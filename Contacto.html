@@ -1,0 +1,117 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care Veterinaria - Contacto</title>
+    <link rel="stylesheet" href="CSS/conta.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background: #fff;
+            color: #000;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            background: #fff;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: #000000;
+            margin: 0 1em;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #03BB85; /* Cambia el color al pasar el mouse */
+        }
+        .container {
+            padding: 1em 2em;
+        }
+        .section-title{
+            margin: 1em 0;
+            font-size: 1.5em;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1em;
+            background: #f4f4f4;
+            border-radius: 5px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        form button:hover {
+            background: #03BB85;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMG/PETCARE_LOGO_M.png" alt="logo veterinaria" class="logo-img">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Contacto.html">Contacto</a>
+        <a href="Servicios.html">Servicios</a>
+        <a href="Equipo Médico.html">Equipo</a>
+        <a href="Testimonios.html">Testimonios</a>
+    </nav>
+    <div class="container">
+          <main>
+        <section class="contact-form">
+             <h2><strong>SI DESEAS HACER PARTE DE NUESTRO EQUIPO DE TRABAJO, LLENA EL FORMULARIO Y ADJUNTA TU HOJA DE VIDA</strong></h2>
+            <p>Puedes enviarlo en formato WORD o PDF únicamente</p>
+            <form>
+                <label for="name">Nombre*</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail*</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Asunto*</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Mensaje*</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <label for="resume">Adjunta tu hoja de vida</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Información de Contacto</h2>
+            <p><strong>Dirección:</strong> Cll 63 #104-26</p>
+            <p><strong>Teléfono:</strong> +57 3246225665</p>
+            <p>Servicio al Cliente: <a href="mailto:servicio.cliente@petcare.com.co">servicio.cliente@petcare.com.co</a></p>
+            <p>Agendamientos: <a href="mailto:agendar@petcare.com.co">agendar@petcare.com.co</a></p>
+            <p>Pacientes crónicos: <a href="mailto:bienestar@petcare.com.co">bienestar@petcare.com.co</a></p>
+            <p>Planes de medicina: <a href="mailto:prevencioplus@petcare.com.co">prevencioplus@petcare.com.co</a></p>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Página creada por Mayruth Hidalgo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

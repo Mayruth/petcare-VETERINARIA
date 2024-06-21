@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: center;
+    padding: 0;
+}
+footer{
+    color: #000000;
+    text-align: center;
+    padding: 1em 0;
+}
+section{
+    width: 1060px;
+    margin: 20px auto;
+    align-items: center;
+}
+section{
+    align-items: center;
+}
+header .logo-img{
+    margin: center;
+    width: 15%;
+    height: auto;
+    animation: fadeIn 2s, forwards, moveUp 2s forwards, zoomIn 2s forwards;
+}
+
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+@keyframes moveUp{
+    to{
+        transform:translateY(0.2) scale(0.2);
+    }
+}
+
+@keyframes zoomIn{
+    to{
+        transform:translateY(2px) scale(0.5);
+    }
+}
+img{
+    width: 250px;
+    height: auto;
+}
+nav {
+    text-align: center;
+    background: #555;
+    padding: 0.5em 0;
+}
+nav a:hover {
+    color: #03BB85; 
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: #f4f4f4;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+figure{
+    background: #03BB85;
+    display: inline-block;
+    padding: 10px 10px 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    position: relative;
+    transform: rotate(none);
+}
+figure::-moz-focus-inner{
+    width: 175px;
+    height: 175px;
+}
+figure:hover{
+    transform: rotate(0) scale(1.5,1.5);
+    z-index: 10;
+    filter: blur(0) saturate(100%);
+}
+figcaption{
+    position: relative;
+    top: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
